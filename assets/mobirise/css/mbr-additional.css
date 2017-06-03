@@ -528,14 +528,6 @@ h6,
 #features6-1 H5 {
   color: #efefef;
 }
-#msg-box2-2e .mbr-section-title {
-  color: #fff;
-  font-size: 36px;
-  text-align: left;
-}
-#msg-box2-2e .mbr-section-subtitle {
-  color: #a0a0a0;
-}
 #social-buttons1-1a .mbr-section-title {
   color: #292929;
 }
@@ -547,6 +539,83 @@ h6,
 }
 #contacts1-a P {
   color: #efefef;
+}
+#menu-5 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-5 .navbar-caption {
+  color: #ffffff;
+}
+#menu-5 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-5 .link,
+#menu-5 .dropdown-item {
+  color: #ffffff;
+}
+#menu-5 .link {
+  font-size: 1.15rem;
+}
+#menu-5 .dropdown-item,
+#menu-5 .nav-dropdown-sm .link {
+  font-size: 1.245rem;
+}
+#menu-5 .link:hover,
+#menu-5 .dropdown-item:hover,
+#menu-5 .link:focus,
+#menu-5 .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-5 .link[aria-expanded="true"],
+#menu-5 .dropdown-menu {
+  background: #0e0e0e;
+}
+#menu-5 .nav-dropdown-sm .link:focus,
+#menu-5 .nav-dropdown-sm .link:hover,
+#menu-5 .nav-dropdown-sm .dropdown-item:focus,
+#menu-5 .nav-dropdown-sm .dropdown-item:hover {
+  background: #202020!important;
+}
+#menu-5 .navbar,
+#menu-5 .nav-dropdown-sm,
+#menu-5 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-5 .nav-dropdown-sm .dropdown-menu {
+  background: #282828;
+}
+#menu-5 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-5 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-5 .bg-color.transparent.opened .link:hover,
+#menu-5 .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-5 .link[aria-expanded="true"],
+#menu-5 .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#menu-5.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-5 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-5 .close-icon::before,
+#menu-5 .close-icon::after {
+  background-color: #ffffff;
+}
+#features4-1l .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-1l .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#footer1-6 P {
+  color: #c0a375;
 }
 
 
@@ -810,9 +879,6 @@ h6,
 #slider2-1q .mbr-section-lead {
   color: #fff;
 }
-#gallery1-2g .mbr-gallery-item > div > span {
-  color: #cccccc;
-}
 #contacts1-1r STRONG {
   color: #0d9188;
 }
@@ -820,170 +886,5 @@ h6,
   color: #c0a375;
 }
 #contacts1-1r P {
-  color: #efefef;
-}
-#menu-5 .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu-5 .navbar-caption {
-  color: #ffffff;
-}
-#menu-5 .navbar-toggler {
-  color: #ffffff;
-}
-#menu-5 .link,
-#menu-5 .dropdown-item {
-  color: #ffffff;
-}
-#menu-5 .link {
-  font-size: 1.15rem;
-}
-#menu-5 .dropdown-item,
-#menu-5 .nav-dropdown-sm .link {
-  font-size: 1.245rem;
-}
-#menu-5 .link:hover,
-#menu-5 .dropdown-item:hover,
-#menu-5 .link:focus,
-#menu-5 .dropdown-item:focus {
-  color: #c0a375;
-}
-#menu-5 .link[aria-expanded="true"],
-#menu-5 .dropdown-menu {
-  background: #0e0e0e;
-}
-#menu-5 .nav-dropdown-sm .link:focus,
-#menu-5 .nav-dropdown-sm .link:hover,
-#menu-5 .nav-dropdown-sm .dropdown-item:focus,
-#menu-5 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
-}
-#menu-5 .navbar,
-#menu-5 .nav-dropdown-sm,
-#menu-5 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-5 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
-}
-#menu-5 .bg-color.transparent .link {
-  color: #ffffff;
-  transition: none;
-}
-#menu-5 .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu-5 .bg-color.transparent.opened .link:hover,
-#menu-5 .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
-}
-#menu-5 .link[aria-expanded="true"],
-#menu-5 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
-}
-#menu-5.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-5 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-5 .close-icon::before,
-#menu-5 .close-icon::after {
-  background-color: #ffffff;
-}
-#features4-1l .card-subtitle {
-  color: #bcbcbc;
-}
-#features4-1l .iconbox {
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
-}
-#footer1-6 P {
-  color: #c0a375;
-}
-
-
-
-#menu-26 .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu-26 .navbar-caption {
-  color: #ffffff;
-  font-size: 30px;
-  font-family: 'Roboto Slab', serif;
-}
-#menu-26 .navbar-toggler {
-  color: #c0a375;
-}
-#menu-26 .link,
-#menu-26 .dropdown-item {
-  color: #c0a375;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-#menu-26 .link {
-  font-size: 1.15rem;
-}
-#menu-26 .dropdown-item,
-#menu-26 .nav-dropdown-sm .link {
-  font-size: 1.245rem;
-}
-#menu-26 .link:hover,
-#menu-26 .dropdown-item:hover,
-#menu-26 .link:focus,
-#menu-26 .dropdown-item:focus {
-  color: #c0a375;
-}
-#menu-26 .link[aria-expanded="true"],
-#menu-26 .dropdown-menu {
-  background: #0e0e0e;
-}
-#menu-26 .nav-dropdown-sm .link:focus,
-#menu-26 .nav-dropdown-sm .link:hover,
-#menu-26 .nav-dropdown-sm .dropdown-item:focus,
-#menu-26 .nav-dropdown-sm .dropdown-item:hover {
-  background: #202020!important;
-}
-#menu-26 .navbar,
-#menu-26 .nav-dropdown-sm,
-#menu-26 .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-26 .nav-dropdown-sm .dropdown-menu {
-  background: #282828;
-}
-#menu-26 .bg-color.transparent .link {
-  color: #c0a375;
-  transition: none;
-}
-#menu-26 .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu-26 .bg-color.transparent.opened .link:hover,
-#menu-26 .bg-color.transparent.opened .link:focus {
-  color: #c0a375;
-}
-#menu-26 .link[aria-expanded="true"],
-#menu-26 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
-}
-#menu-26.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#menu-26 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#menu-26 .close-icon::before,
-#menu-26 .close-icon::after {
-  background-color: #c0a375;
-}
-#menu-26 .navbar-caption SPAN {
-  font-family: 'Titillium Web', sans-serif;
-}
-#footer1-27 P {
-  color: #c0a375;
-}
-#contacts1-29 STRONG {
-  color: #0d9188;
-}
-#contacts1-29 B {
-  color: #c0a375;
-}
-#contacts1-29 P {
   color: #efefef;
 }
