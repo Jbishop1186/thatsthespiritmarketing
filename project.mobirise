@@ -23,16 +23,16 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 86,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.6.5",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": "UA-100354410-1\r\n",
-    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "google-analytics": "UA-96173101-1",
+    "cookiesAlert": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "html_before": "<script type='text/javascript'>(function(s) {var head = document.getElementsByTagName('HEAD').item(0);var s= document.createElement('script');s.type = 'text/javascript';s.src='//s3-us-west-2.amazonaws.com/formget/js/popup.js';head.appendChild(s); var options = {'tabKey': 'naGR-248652/t','tabtext':'Get Instabuilder 2.0 Now!','height': '419','width': '350','tabPosition':'bottom','textColor': 'ffffff','tabBackground': '118a84','fontSize': '16','tabbed':''};s.onload = s.onreadystatechange = function() {var rs = this.readyState;if (rs)if (rs != 'complete')if (rs != 'loaded')return;try {sideBar = new buildTabbed();sideBar.initializeOption(options);sideBar.loadContent();sideBar.buildHtml();} catch (e) {}  };var scr = document.getElementsByTagName(s)[0];})(document, 'script');</script>",
     "headbody": "",
-    "botbody": ""
+    "botbody": "<iframe height='1069' allowTransparency='true' frameborder='0' scrolling='no' style='width:100%;border:none'  src='//www.formget.com/app/forms/view/naGR-248652/i?w=328'>Your Contact </iframe>"
   },
   "pages": {
     "index.html": {
@@ -113,6 +113,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -121,13 +127,7 @@
               "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#c0a375",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -178,25 +178,25 @@
           },
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dsc-2-2000x1338.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": "0.4",
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": "0.4"
           },
-          "title": "<span style=\"font-weight: normal;\">Get Your Business Noticed</span>",
+          "title": "<span style=\"font-weight: normal;\">Get Your Business Noticed!</span>",
           "text": "<b>Open Your Closed Mind Design studio is your one-stop solution to all your design needs.</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Get Started</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Contact Form\" data-toolbar=\"-mbrBtnMove\">Contact Now</a>  "
         },
@@ -212,13 +212,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 That's The Spirit Marketing"
         },
@@ -239,26 +239,26 @@
           },
           "_anchor": "features6-1",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#292929",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -361,8 +361,15 @@
           ],
           "_name": "gallery1",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Awesome",
@@ -444,14 +451,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery1-24",
           "articleLayout": false,
@@ -485,13 +485,13 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dsc-14-2000x1338.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
             "overlay": true,
-            "overlayOpacity": "0.4",
             "overlayColor": "#efefef",
+            "overlayOpacity": "0.4",
             "facebook": true,
             "twitter": true,
             "google": true,
@@ -521,13 +521,13 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -616,17 +616,17 @@
           "_name": "menu",
           "_anchor": "menu-5",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -663,27 +663,27 @@
           "_name": "features4",
           "_anchor": "features4-1l",
           "_params": {
-            "iconsBgColor": "#f2f2f2",
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": false,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#f2f2f2",
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -796,13 +796,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 That's The Spirit Marketing"
         }
@@ -850,13 +850,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 That's The Spirit Marketing"
         },
@@ -878,19 +878,19 @@
           },
           "_anchor": "form1-1d",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
           "subtitle": "Shape your future business with us.",
@@ -944,13 +944,13 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1028,17 +1028,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1e",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.25",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1135,6 +1135,12 @@
           "_name": "menu",
           "_anchor": "menu-s",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -1143,13 +1149,7 @@
               "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#c0a375",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1186,13 +1186,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 That's The Spirit Marketing"
         },
@@ -1203,8 +1203,15 @@
           ],
           "_name": "gallery3",
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
             "paddingTop": "4",
             "paddingBottom": "1",
+            "filterBgColor": true,
+            "bgColor": "#000000",
+            "showText": false,
+            "filter": false,
             "images": [
               {
                 "tags": "Beautiful",
@@ -1286,14 +1293,7 @@
                 "caption": "Type caption here",
                 "active": false
               }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": false,
-            "showBullets": true
+            ]
           },
           "_anchor": "gallery3-23",
           "articleLayout": false,
@@ -1320,13 +1320,13 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1424,6 +1424,12 @@
           "_name": "menu",
           "_anchor": "menu-1o",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "1.15",
             "fontName": {
@@ -1432,13 +1438,7 @@
               "css": "'Roboto Condensed', sans-serif"
             },
             "fontColor": "#c0a375",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1475,13 +1475,13 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "Copyright (c) 2017 That's The Spirit Marketing"
         },
@@ -1497,6 +1497,8 @@
           "_name": "slider2",
           "_params": {
             "autoplay": true,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": "3",
             "paddingTop": "5",
             "paddingBottom": "2",
@@ -1531,9 +1533,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider2-1q"
         },
@@ -1558,13 +1558,13 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#292929",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#292929",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
